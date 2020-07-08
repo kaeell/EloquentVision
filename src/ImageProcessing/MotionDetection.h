@@ -77,8 +77,8 @@ namespace Eloquent {
         protected:
             uint8_t _curr[sourceWidth / blockSize * sourceHeight / blockSize] = {0};
             uint8_t _prev[sourceWidth / blockSize * sourceHeight / blockSize] = {0};
-            float _threshold;
             ImageDownscaler _downscaler;
+            float _threshold;
         };
     }
 }
